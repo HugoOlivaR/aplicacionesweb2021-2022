@@ -1,0 +1,160 @@
+.ej11 {
+    border: 2px solid violet;
+    position:relative;
+    background:violet;
+    height:100px;
+    width:100px;
+}
+
+.ej12 {
+    border: 2px solid greenyellow;
+    position:relative;
+    background:greenyellow;
+    height:100px;
+    width:100px;
+}
+
+
+
+
+.ej21 {
+    border: 2px solid violet;
+    position:relative;
+    float: left;
+    background:violet;
+    height:100px;
+    width:100px;
+}
+
+.ej22 {
+    border: 2px solid greenyellow;
+    position:relative;
+    float: left;
+    background:greenyellow;
+    height:100px;
+    width:100px;
+}
+
+
+
+.ej31 {
+    border: 2px solid violet;
+    position:relative;
+    float: left;
+    background:violet;
+    height:100px;
+    width:100px;
+}
+
+.ej32 {
+    border: 2px solid greenyellow;
+    position:relative;
+    float: right;
+    background:greenyellow;
+    height:100px;
+    width:100px;
+}
+
+
+
+
+.ej41 {
+    border: 2px solid violet;
+    position:relative;
+    float: right;
+    background:violet;
+    height:100px;
+    width:100px;
+}
+
+.ej42 {
+    border: 2px solid greenyellow;
+    position:relative;
+    float: right;
+    background:greenyellow;
+    height:100px;
+    width:100px;
+}
+
+.ej43 {
+    border: 2px solid grey;
+    position:relative;
+    float: left;
+    background:grey;
+    height:100px;
+    width:100px;
+}
+
+
+
+
+.ej51 {
+    border: 2px solid violet;
+    position:relative;
+    float: right;
+    background:violet;
+    height:100px;
+    width:100px;
+}
+
+.ej52 {
+    border: 2px solid greenyellow;
+    position:relative;
+    float: right;
+    background:greenyellow;
+    height:100px;
+    width:100px;
+}
+
+.ej53 {
+    border: 2px solid grey;
+    position:relative;
+    top: 100px;
+    float: left;
+    background:grey;
+    height:100px;
+    width:100px;
+}
+
+
+
+.ej61 {
+    border: 2px solid violet;
+    position:absolute;
+    background:violet;
+    height:100px;
+    width:100px;
+    z-index: 1;
+}
+
+.ej62 {
+    border: 2px solid greenyellow;
+    position:relative;
+    background:greenyellow;
+    top: 30px;
+    left: 50px;
+    height:100px;
+    width:100px;
+    z-index: 2;
+}
+
+
+.ej71 {
+    border: 2px solid violet;
+    position:absolute;
+    background:violet;
+    height:100px;
+    width:100px;
+    z-index: 2;
+}
+
+.ej72 {
+    border: 2px solid greenyellow;
+    position:relative;
+    background:greenyellow;
+    top: 30px;
+    left: 50px;
+    height:100px;
+    width:100px;
+    z-index: 1;
+}
