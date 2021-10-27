@@ -47,8 +47,9 @@ input {
 }
 
 .pcpng {
-    position: absolute;
-    left: 70%;
+    position: relative;
+    float: right;
+    right: 10%;
     padding-top: 30px;
 }
 
@@ -66,8 +67,9 @@ input {
 }
 
 .procesadorintel {
-    position: absolute;
-    left: 66%;
+    position: relative;
+    float: right;
+    right: 8%;
     padding-top: 45px;
 }
 
@@ -85,15 +87,11 @@ input {
 }
 
 .resoluciones {
-    position: absolute;
-    left: 50%;
+    position: relative;
+    float: right;
     padding-top: 5px;
     transition: ease-in 0.5s;
     z-index: 2;
-}
-
-.resoluciones:hover {
-    left: 20%;
 }
 
 .iresoluciones {
@@ -121,8 +119,9 @@ input {
 }
 
 .mapa {
-    position: absolute;
-    left: 65%;
+    position: relative;
+    float: right;
+    right: 6%;
     padding-top: 20px;
     z-index: 1;
 }
@@ -141,8 +140,9 @@ input {
 }
 
 .mail {
-    position: absolute;
-    left: 70%;
+    position: relative;
+    float: right;
+    right: 10%;
 }
 
 .itext {
