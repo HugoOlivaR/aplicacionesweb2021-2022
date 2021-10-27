@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="logo">
+        <center>
+            <img src="5ware.png" height="150" width="475">
+        </center>
+    </div>
+
+    <div class="contact_form">
+        <div class="formulario">
+            <h1>Elige tu ordenador</h1>
+        </div>
+
+        <div class="tipo_pc">
+            <h3>Tipo de ordenador</h3>
+        </div>
+
+        <form action="" method="">
+            <fieldset class="general">
+                <legend>General</legend>
+
+                <div class="pcpng">
+                        <img src="pc.png" height="225" width="148.5">
+                </div>
+
+                <p>
+                    <label class="tipo">¿Que uso le vas a dar al ordenador?</label>
+                    <br>
+                    <input type='radio' name='tipo' value='casa' required="obligatorio"> Uso domestico
+                    <br>
+                    <input type='radio' name='tipo' value='gaming' required="obligatorio"> Jugar videojuegos
+                    <br>
+                    <input type='radio' name='tipo' value='trabajo' required="obligatorio"> Para trabajo
+                </p>
+
+                <p>
+                    <label class="precio">¿En que gama de precio quieres que esté tu ordendor?</label>
+                    <br>
+                    <input type='radio' name='precio' value='barato' required="obligatorio"> 300€ - 500€
+                    <br>
+                    <input type='radio' name='precio' value='medio' required="obligatorio"> 500€ - 800€
+                    <br>
+                    <input type='radio' name='precio' value='caro' required="obligatorio"> +800€
+                </p>
+
+            </fieldset>
+
+            <fieldset class="procesador">
+                <legend>Procesador</legend>
+
+                <div class="procesadorintel">
+                    <img src="procesadorintel.png" height="236.5" width="250">
+                </div>
+
+                <p>
+                    <label class="inteloamd">¿Intel o AMD?</label>
+                    <br>
+                    <input type='radio' name='inteloamd' value='intel'> Intel
+                    <br>
+                    <input type='radio' name='inteloamd' value='amd'> AMD
+                    <br>
+                    <input type='radio' name='inteloamd' value='recomendacion'> Recomendación de la casa
+                </p>
+
+                <p>
+                    <label class="nucleos">¿Que cantidad de núcleos quieres que tenga tu precesador?</label>
+                    <br>
+                    <input type='radio' name='nucleos' value='2-4'> 2 - 4 Núcleos
+                    <br>
+                    <input type='radio' name='nucleos' value='4-8'> 4 - 8 Núcleos
+                    <br>
+                    <input type='radio' name='nucleos' value='+8'> +8 Núcleos
+                    <br>
+                    <input type='radio' name='nucleos' value='idk'> No lo sé
+                </p>
+
+            </fieldset>
+
+            <fieldset class="resolucion">
+                <legend>Resolución</legend>
+
+                <div class="resoluciones">
+                    <img src="resoluciones.png" class="iresoluciones">
+                </div>
+
+                <p>
+                    <label class="resolucionpantalla">¿Que resolución tiene pantalla?</label>
+                    <br>
+                    <input type='radio' name='resolucionpantalla' value='1080'> 1080 (Estandar)
+                    <br>
+                    <input type='radio' name='resolucionpantalla' value='2048'> 2048 (2K)
+                    <br>
+                    <input type='radio' name='resolucionpantalla' value='3840'> 3840 (4k)
+                </p>
+
+                <p>
+                    <label class="hz">¿Que frecuencia de actualización tiene tu pantalla?</label>
+                    <br>
+                    <input type='radio' name='hz' value='60'> 60Hz (Estandar)
+                    <br>
+                    <input type='radio' name='hz' value='4-8'> 120Hz
+                    <br>
+                    <input type='radio' name='hz' value='+8'> 240Hz o más
+                </p>
+
+            </fieldset>
+
+            <fieldset class="envio">
+                <legend>Envio</legend>
+
+                <div class="mapa">
+                    <img src="mapa.png" height="256" width="256">
+                </div>
+
+                <p>
+                    <label class="direccion">Dirección:</label>
+                    <input type="text" class="itext" required="obligatorio" placeholder="Dirección">
+                </p>
+
+                <p>
+                    <label class="fecha">¿Cuando quieres que te llegue el ordenador?</label>
+                    <input type="date" class="idate">
+                </p>
+
+                <p>
+                    <label class="colocar_mensaje">Mensaje extra:</label>
+                    <textarea class="texto_mensaje" placeholder="Introduce aquí tu mensaje..."></textarea>
+                </p>
+
+            </fieldset>
+
+            <fieldset class="contacto">
+                <legend>Contacto</legend>
+
+                <div class="mail">
+                    <img src="correo.png" height="128" width="128">
+                </div>
+
+                <p>
+                    <label class="direccion">Correo:</label>
+                    <input type="email" class="itext" required="obligatorio" placeholder="Correo">
+                </p>
+
+                <p>
+                    <label class="tlf">Telefono</label>
+                    <input type="tel" class="itext" placeholder="Teléfono">
+                </p>
+
+            </fieldset>
+
+            <p>
+                <center>
+                <button>Enviar</button>
+                </center>
+            
+            </p>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
