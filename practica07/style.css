@@ -1,0 +1,158 @@
+.general {
+    display: grid;
+    grid-gap: 5px;
+    background-color: #C4DBEC;
+    padding: 10px;
+}
+  
+.general > div {
+    font-size: 30px;
+    
+}
+
+a {
+    font-size: 30px;
+}
+
+.logo {
+    grid-area: 1 / 1 / 1 / 1;
+    padding-bottom: 20%;
+    text-align: center;
+
+}
+
+.imglogo {
+    transition: ease-in 0.1s;
+}
+
+.imglogo:hover {
+    transform: rotate(45deg);
+}
+
+.header {
+    grid-area: 1 / 2 / 1 / 8;
+
+}
+
+.menu1 {
+    grid-area: 2 / 1 / 2 / 1;
+    padding: 10% 0%;
+    background-color: #D3EDFF;
+    transition: ease 0.3s;
+    border: solid black 2px;
+    text-align: center;
+}
+
+.menu1:hover {
+    background-color: #ACDDFF;
+    border: solid black 2px;
+    box-shadow:inset 0px 0px 10px 2px #5c5c5c;
+
+}
+
+.menu2 {
+    grid-area: 3 / 1 / 3 / 1;
+    padding: 10% 0%;
+    background-color: #D3EDFF;
+    transition: ease 0.3s;
+    border: solid black 2px;
+    text-align: center;
+}
+
+.menu2:hover {
+    background-color: #ACDDFF;
+    border: solid black 2px;
+    box-shadow:inset 0px 0px 10px 2px #5c5c5c;
+}
+
+.menu3 {
+    grid-area: 4 / 1 / 4 / 1;
+    padding: 10% 0%;
+    background-color: #D3EDFF;
+    transition: ease 0.3s;
+    border: solid black 2px;
+    text-align: center;
+}
+
+.menu3:hover {
+    background-color: #ACDDFF;
+    border: solid black 2px;
+    box-shadow:inset 0px 0px 10px 2px #5c5c5c;
+}
+.publi2 {
+    grid-area: 5 / 1 / 5 / 1;
+    padding: 100px 0px;
+    border: solid white 2px;
+    text-align: center;
+}
+
+.index {
+    grid-area: 2 / 2 / 6 / 7;
+    padding: 30%;
+    text-align: center;
+}
+
+.publi {
+    grid-area: 2 / 7 / 6 / 7;
+    padding-top: 110%;
+    border: solid white 2px;
+    text-align: center;
+}
+
+.footer {
+    grid-area: 6 / 1 / 6 / 8;
+    padding: 2%;
+    text-align: center;
+}
+
+.ig {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 50px;
+    width: 50px;
+    transition: ease 0.5s;
+}
+
+.ig:hover {
+    height: 70px;
+    width: 70px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+.tw {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 50px;
+    width: 50px;
+    transition: ease 0.5s;
+}
+
+.tw:hover {
+    height: 70px;
+    width: 70px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.git {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 50px;
+    width: 50px;
+    transition: ease 0.5s;
+}
+
+.git:hover {
+    height: 70px;
+    width: 70px;
+    padding-top: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
